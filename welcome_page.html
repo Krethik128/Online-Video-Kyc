@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online KYC - Welcome</title>
+    <link rel="stylesheet" href="welcome_page.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <img class="logo" src="/welcome-page/Images/logo.png" alt="Logo" height="60px" />
+            <h1>ONLINE KYC </h1>
+          </li>
+          <li>
+            <div class="nav-lang">
+              <img
+                src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png"
+                alt="Language Selector"
+              />
+              <div class="language-options">
+                <select id="languageSelect">
+                  <option value="en">English</option>
+                  <option value="hi">Hindi</option>
+                  <option value="tl">Telugu</option>
+                  <option value="fr">French</option>
+                  <option value="esp">Espanol</option>
+                </select>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="box1">
+        <div class="container">
+          <img src="/welcome-page/Images/image.png" alt="Profile Picture" class="profile-pic" />
+          <p class="intro">What you need before to do for further proceeding</p>
+          <br />
+          <div class="box-intro">
+            <div>
+              <div class="intro1-container">
+                <img src="/welcome-page/Images/intro1pan.png" alt="Icon" class="icon" />
+                <p class="intro1">
+                  Step 1: Prepare your Physical PAN card, a white paper, and a
+                  pen.
+                </p>
+              </div>
+              <br />
+              <div class="intro2-container">
+                <img src="/welcome-page/Images/intro2permissions.png" alt="Icon" class="icon" />
+                <p class="intro2">
+                  Step 2: Grant permissions on your device for camera, location,
+                  and microphone. This data will be securely accessed by the
+                  bank and will never be made public.
+                </p>
+              </div>
+              <br />
+              <div class="intro3-container">
+                <img src="/welcome-page/Images/intro3cam.png" alt="Camera" class="icon" />
+                <p class="intro3">
+                  Step 3: Make sure your camera and microphone is working
+                  properly
+                </p>
+              </div>
+              <br />
+              <div class="intro4-container">
+                <img src="/welcome-page/Images/intro4faceid.png" alt="face_id" class="icon" />
+                <p class="intro4">
+                  Step 4: Position your face within the frame and ensure it is
+                  well-lit. Follow the prompts to capture your face from
+                  different angles.
+                </p>
+              </div>
+              <br />
+              <div class="intro5-container">
+                <img src="/welcome-page/Images/intro5noise.png" alt="Noise" class="icon" />
+                <p class="intro5">
+                  Step 5: Ensure you are in a well-lit room with minimal
+                  background noise. Position your device's camera so that your
+                  face is clearly visible.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="verification">
+          <input type="checkbox" id="documentsCheck" required />
+          <label for="documentsCheck">
+            I have my PAN, a white paper and a pen handy
+          </label>
+        </div>
+        <div class="button">
+          <a href="/Basic_Details/index1.html">
+            <button id="startVerificationBtn" class="continue-btn" disabled>
+              Start Verification
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="/language_converter.js"></script>
+    <script src="/checkbox.js"></script>
+  </body>
+</html>
